@@ -1,7 +1,174 @@
-.index__h1 {
-  color: #00cc99;
-  font-size: 20px;
-  font-weight: 400;
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Noto Sans", "Roboto", sans-serif;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin-bottom: 0;
+}
+
+.h-582 {
+  height: 582px;
+}
+
+.h-420 {
+  height: 420px;
+}
+
+.h-628 {
+  height: 628px;
+}
+
+.h-444 {
+  height: 444px;
+}
+
+.h-207 {
+  height: 207px;
+}
+
+.h-165 {
+  height: 165px;
+}
+
+.h-256 {
+  height: 256px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navbar .navbar-brand {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/DOYOGA-logo.png");
+  background-size: cover;
+  background-position: center;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 96px;
+  height: 31px;
+}
+
+.navbar .navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar .asidenav-link:hover {
+  color: #fff;
+}
+
+.footer-nav .footer-brand {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/DOYOGA.png");
+  background-size: cover;
+  background-position: center;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 96px;
+  height: 31px;
+}
+
+.footer-nav .footer-icon {
+  width: 24px;
+}
+
+.mainbanner {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/photo-1612157777902-5382bc6e864b.jpeg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.teacher-img {
+  width: 48px;
+  height: 48px;
+}
+
+.teacher_bgimage {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/photo-1540206276207-3af25c08abc4.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.teacher-lg-card {
+  z-index: 999;
+  right: 12px;
+  top: 139px;
+}
+
+@media (min-width: 765px) {
+  .teacher-second-card {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .teacher-second-card {
+    margin-top: 152px;
+  }
+}
+
+.big-space-pic {
+  height: 210px;
+}
+
+@media (min-width: 765px) {
+  .big-space-pic {
+    height: 444px;
+  }
+}
+
+.mid-space-pic {
+  height: 210px;
+}
+
+@media (min-width: 765px) {
+  .mid-space-pic {
+    height: 207px;
+  }
+}
+
+.user-img {
+  width: 60px;
+  height: 60px;
 }
 
 /*# sourceMappingURL=all.css.map */
