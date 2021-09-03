@@ -6,55 +6,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><%- title %></title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/bootstrap.css">
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="container">
+        <a class="navbar-brand my-md-7 my-6" href="javascript:;">
+          Navbar</a>
+    
+        <!-- 漢堡 -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- 漢堡 -->
+    
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto m-md-auto mb-2">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link px-md-4" aria-current="page" href="javascript:;">課程介紹</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+              <a class="nav-link px-md-4" href="javascript:;">瑜珈空間</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link px-md-4" href="javascript:;">當月課表</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          <ul class="navbar-asidenav d-md-flex d-grid gap-4">
+            <li>
+              <a class="asidenav-link btn btn-outline-secondary rounded-3" href="javascript:;">立即預約</a>
+            </li>
+            <li>
+              <a class="asidenav-link btn btn-outline-secondary rounded-3" href="javascript:;">聯絡我們</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
 
     <%- contents %>
 
-    <footer class="footer">
-      footer
+    <footer class="bg-primary ">
+      <div class="container pb-6 pt-6 pt-md-8 pb-md-9">
+        <!-- 訂閱 -->
+        <div class="row justify-content-between">
+          <p class="col-12 col-xl-5 fs-5 text-white mb-2">現在訂閱，獲得課程優惠碼！</p>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="input-group">
+              <input type="email" class="form-control border-0" placeholder="輸入您的電子信箱" aria-label="email" aria-describedby="button-addon2">
+              <button class="btn btn-secondary border-0 text-white" type="button" id="button-addon2">訂閱</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-top"></div>
+      <div class="container pb-8">
+        <div class="footer-nav d-flex justify-content-between mt-6 mb-2 mt-md-8">
+          <a class="footer-brand" href="javascript:;">
+            Navbar</a>
+          <ul class="footer-item d-flex align-items-center d-grid gap-2">
+            <li>
+              <a class="footer-list" href="javascript:;">
+                <img class="footer-icon"
+                  src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/icon-fb.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a class="footer-list" href="javascript:;">
+                <img class="footer-icon"
+                  src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/icon-ig.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a class="footer-list" href="javascript:;">
+                <img class="footer-icon"
+                  src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/icon-line.svg" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="text-white position-relative">
+          <a class="text-white fw-light mb-2" href="javascript:;">課程介紹</a>
+          <a class="text-white fw-light mb-2" href="javascript:;">瑜珈空間</a>
+          <a class="text-white fw-light mb-2 d-block d-md-inline" href="javascript:;">當月課表</a>
+          <p class="copyright text-white d-block d-md-none">© 2021. All
+            Rights Reserved.</p>
+          <p class="copyright text-white d-none d-md-inline position-absolute bottom-0 start-50 translate-middle-x">© 2021.
+            All
+            Rights Reserved.</p>
+        </div>
+      </div>
     </footer>
 
+    <!-- fixed icon list -->
+    <ul class="fix_icon position-fixed top-50 end-0 translate-middle-y pe-4 d-xl-block d-none">
+      <li>
+        <a href="javascript:;" class="text-primary display-6">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;" class="text-primary display-6">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;" class="text-primary display-6">
+          <i class="fab fa-line"></i>
+        </a>
+      </li>
+    </ul>
+
+    <script src="https://kit.fontawesome.com/078b08d9e1.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
   </body>

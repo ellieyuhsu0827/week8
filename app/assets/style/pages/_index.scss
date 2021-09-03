@@ -1,0 +1,44 @@
+.mainbanner {
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/photo-1612157777902-5382bc6e864b.jpeg");
+    background-size: cover;
+    background-position: bottom;
+}
+.teacher-img {
+    width: 48px;
+    height: 48px;
+}
+.teacher_bgimage {
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/yoga-week8/photo-1540206276207-3af25c08abc4.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.teacher-lg-card {
+    z-index: 999;
+    right: 12px;
+    top: 139px;
+}
+.teacher-second-card {
+    @media (min-width: 765px){
+        margin-top: 0px;
+    }
+    @media (min-width: 992px){
+        margin-top: 152px;
+    }
+}
+.big-space-pic{
+    height: 210px;
+    @media (min-width: 765px){
+        height: 444px;
+    }
+}
+.mid-space-pic{
+    height: 210px;
+    @media (min-width: 765px){
+        height: 207px;
+    }
+}
+.user-img {
+    width: 60px;
+    height: 60px;
+}
+
